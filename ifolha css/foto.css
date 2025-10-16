@@ -1,0 +1,159 @@
+@font-face{
+	font-family:'IFOLHA TITULO';
+	font-style: normal;
+	font-weight: normal;
+	src: local('IFOLHA FONTE'), url('fontes/23-seconds-to-midnight.woff'), format('woff');
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Times New Roman", Georgia, serif;
+    line-height: 1.6;
+}
+h2 {
+    font-family: "Times New Roman", Georgia, serif;
+	font-weight: bold;
+	color: #111;
+}
+p {
+    font-family: Arial, Helvetica, sans-serif;
+	line-height: 1.8;           
+	text-align: justify;        
+	font-size: 25px;
+	color: #333;                
+	margin: 30px auto;          
+	max-width: 1000px;           
+	padding: 0 15px;  
+}
+.cabecalho {
+    display: flex;
+    align-items: center;  
+    justify-content: center;
+	padding: 20px 0 0 0;
+    background: linear-gradient(to right, #1a5f1a 0%, #2a7a2a 30%, #3a9a3a 50%, #2a7a2a 70%, #1a5f1a 100%);
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+	height: 200px;
+	overflow: hidden;
+	font-size: 100px;
+	font-family: 'IFOLHA TITULO';
+	text-shadow: 2px 2px 6px rgba(0,0,0,0.3);
+	letter-spacing: 4px;
+	color: yellow;
+}
+
+.seccoes {
+    background: linear-gradient(to right, #5B8507 0%, #9DE807 50%, #5B8507 100%);
+    margin-top: 0;
+}
+
+table {
+    border-collapse: collapse;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+th {
+    font-size: 15px;
+    text-align: center;
+    padding: 10px;
+    border: 1.5px solid Black;
+    border-radius: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: Black;
+}
+
+.fotos {
+    max-width: 500px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.fotos img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    display: block;
+    margin: 0 auto;
+}
+
+.fotos h2 {
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+.fotos p {
+    margin-top: 10px;
+    font-size: 16px;
+}
+.nomes {
+    text-align: center;
+    font-size: 22px;
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 40px auto;
+}
+
+@media (max-width: 768px) {
+    th {
+        padding: 8px 5px;
+        font-size: 13px;
+    }
+    
+    .fotos h2 {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    th {
+        padding: 5px 3px;
+        font-size: 11px;
+    }
+    
+    .logotipo img {
+        height: 90px;
+        width: 90px;
+    }
+    
+    .cabecalho {
+        height: 150px;
+    }
+    
+    .logotipo {
+        top: -15%;
+    }
+}
+.rodape {
+    background: linear-gradient(to right, #1a5f1a, #2a7a2a, #3a9a3a, #2a7a2a, #1a5f1a);
+    color: white;
+    text-align: center;
+    padding: 15px 10px;
+    margin-top: 40px;
+    font-size: 14px;
+}
+.parte2 {
+    margin-top: 150px;
+    font-size: 70px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.rodape p {
+    font-size: 14px;
+    margin: 0 auto;
+    padding: 0;
+    color: white;
+    text-align: center ;
+    line-height: 1.4;
+    font-family: Arial, sans-serif;
+    max-width: none;
+    width: 100%;
+}

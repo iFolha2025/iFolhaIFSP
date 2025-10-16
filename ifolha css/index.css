@@ -1,0 +1,111 @@
+@font-face{
+	font-family:'IFOLHA TITULO';
+	font-style: normal;
+	font-weight: normal;
+	src: local('IFOLHA FONTE'), url('fontes/23-seconds-to-midnight.woff'), format('woff');
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Times New Roman", Georgia, serif;
+    font-weight: bold;
+    line-height: 1.6;
+}
+
+.cabecalho {
+    padding: 20px 0 0 0;
+    background: linear-gradient(to right, #1a5f1a 0%, #2a7a2a 30%, #3a9a3a 50%, #2a7a2a 70%, #1a5f1a 100%);
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+	height: 200px;
+}
+.logotipo{
+	position: relative;
+	top: -65%;
+	padding: 0px;
+	contain: size;
+}
+.logotipo img {
+    height: 390px;
+	width: 390px;
+    display: block;
+    margin: 0 auto;
+	padding: 0px;
+	pointer-events: none;
+}
+
+.seccoes {
+    background: linear-gradient(to right, #5B8507 0%, #9DE807 50%, #5B8507 100%);
+	margin-top: 0;
+}
+
+table {
+    border-collapse: collapse;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+th {
+    font-size: 15px;
+    text-align: center;
+    padding: 10px;
+    border: 1.5px solid Black;
+    border-radius: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: Black;
+}
+.noticia {
+    max-width: 500px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.imagem-noticia {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    display: block;
+    margin: 0 auto;
+}
+
+.noticia h2 {
+    margin-top: 20px;
+    font-size: 30px;
+}
+@media (max-width: 768px) {
+    th {
+        padding: 8px 5px;
+        font-size: 13px;
+    }
+    
+    .noticia h2 {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    th {
+        padding: 5px 3px;
+        font-size: 11px;
+    }
+    
+    .logotipo img {
+        height: 90px;
+    }
+}
+.rodape {
+    background: linear-gradient(to right, #1a5f1a, #2a7a2a, #3a9a3a, #2a7a2a, #1a5f1a);
+    color: white;
+    text-align: center;
+    padding: 15px 10px;
+    margin-top: 40px;
+    font-size: 14px;
+}

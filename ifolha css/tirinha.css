@@ -1,0 +1,126 @@
+@font-face{
+	font-family:'IFOLHA TITULO';
+	font-style: normal;
+	font-weight: normal;
+	src: local('IFOLHA FONTE'), url('fontes/23-seconds-to-midnight.woff'), format('woff');
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+/* Cabeçalho */
+h1 {
+    font-size: 110px;
+    color: #E6E6E6;
+    font-family: Times New Roman;
+    position: absolute;
+    left: 50%;
+    top: 20px;
+    transform: translateX(-50%);
+}
+
+.cabecalho {
+	display: flex;
+    align-items: center;  
+    justify-content: center;
+	padding: 20px 0 0 0;
+    background: linear-gradient(to right, #1a5f1a 0%, #2a7a2a 30%, #3a9a3a 50%, #2a7a2a 70%, #1a5f1a 100%);
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+	height: 200px;
+	overflow: hidden;
+	font-size: 90px;
+	font-family: 'IFOLHA TITULO';
+	text-shadow: 2px 2px 6px rgba(0,0,0,0.3);
+	letter-spacing: 4px;
+	color: yellow;
+}
+
+/* Menu */
+.seccoes {
+    background: linear-gradient(to right, #5B8507 0%, #9DE807 50%, #5B8507 100%);
+    margin-top: 0;
+}
+
+table {
+    border-collapse: collapse;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+th {
+    font-size: 15px;
+    text-align: center;
+    padding: 10px;
+    border: 1.5px solid Black;
+    border-radius: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: Black;
+}
+
+/* Tirinha */
+.tirinha {
+    max-width: 500px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.tirinha img {
+    width: 500px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    display: block;
+    margin: 100px auto 0 auto;
+}
+
+/* Tirinha “desculpa” (altura fixa) */
+.desculpa {
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Texto abaixo da tirinha */
+h4 {
+    text-align: center;
+    margin: 50px;
+}
+
+/* Texto grande */
+.parte2 {
+    margin-top: 150px;
+    font-size: 70px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* Imagem ônibus */
+.onibus {
+    width: 500px;
+    max-width: 100%;
+    height: auto;  /* mantém proporção real */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    display: block;
+    margin: 40px auto;
+}
+
+/* Rodapé */
+.rodape {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: linear-gradient(to right, #1a5f1a, #2a7a2a, #3a9a3a, #2a7a2a, #1a5f1a);
+    color: white;
+    text-align: center;
+    padding: 15px 10px;
+    font-size: 14px;
+    border-top: 3px solid #2a7a2a;
+}
