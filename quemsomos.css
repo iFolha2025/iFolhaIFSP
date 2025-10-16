@@ -1,0 +1,88 @@
+@font-face{
+	font-family:'IFOLHA TITULO';
+	font-style: normal;
+	font-weight: normal;
+	src: local('IFOLHA FONTE'), url('fontes/23-seconds-to-midnight.woff'), format('woff');
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	overflow-x: hidden;
+}
+
+.cabecalho {
+	display: flex;
+    align-items: center;  
+    justify-content: center;
+	padding: 20px 0 0 0;
+    background: linear-gradient(to right, #1a5f1a 0%, #2a7a2a 30%, #3a9a3a 50%, #2a7a2a 70%, #1a5f1a 100%);
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+	height: 200px;
+	overflow: hidden;
+	font-size: 100px;
+	font-family: 'IFOLHA TITULO';
+	text-shadow: 2px 2px 6px rgba(0,0,0,0.3);
+	letter-spacing: 4px;
+	color: yellow;
+}
+
+.seccoes {
+	background: linear-gradient(to right, #5B8507 0%, #9DE807 50%, #5B8507 100%);
+}
+
+table {
+	border-collapse: collapse;
+	border-radius: 10px;
+}
+
+th {
+	font-size: 15px;
+	text-align: center;
+	padding: 10px;
+	border: 1.5px solid Black;
+	border-radius: 10px;
+}
+
+a {
+	text-decoration: none;
+	color: Black;	
+}
+
+.texto-principal {
+    font-size: 20px;
+    margin: 20px auto;
+    padding: 0 20px;
+    max-width: 75%;
+    text-align: justify;
+    line-height: 1.8;
+    color: #444;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.texto-principal h3 {
+    margin-top: 25px;
+    margin-bottom: 10px;
+    font-size: 22px;
+    color: #1a5f1a;
+    font-weight: bold;
+    border-left: 6px solid #3a9a3a;
+    padding-left: 10px;
+}
+
+.nomes {
+	text-align: center;
+    font-size: 22px;
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 40px auto;
+}
+.rodape {
+    background: linear-gradient(to right, #1a5f1a, #2a7a2a, #3a9a3a, #2a7a2a, #1a5f1a);
+    color: white;
+    text-align: center;
+    padding: 15px 10px;
+    margin-top: 40px;
+    font-size: 14px;
+}
