@@ -13,7 +13,7 @@
 
 /* Cabeçalho */
 h1 {
-    font-size: 110px;
+    font-size:10vw;
     color: #E6E6E6;
     font-family: Times New Roman;
     position: absolute;
@@ -42,17 +42,19 @@ h1 {
 /* Menu */
 .seccoes {
     background: linear-gradient(to right, #5B8507 0%, #9DE807 50%, #5B8507 100%);
+	font-size:10vw;
     margin-top: 0;
 }
 
 table {
     border-collapse: collapse;
     border-radius: 10px;
+	font-size:10vw;
     margin: 0 auto;
 }
 
 th {
-    font-size: 15px;
+    font-size:10vw;
     text-align: center;
     padding: 10px;
     border: 1.5px solid Black;
@@ -66,7 +68,8 @@ a {
 
 /* Tirinha */
 .tirinha {
-    max-width: 500px;
+    max-width:100%;
+	height:auto;
     margin: 40px auto;
     text-align: center;
 }
@@ -124,3 +127,4 @@ h4 {
     font-size: 14px;
     border-top: 3px solid #2a7a2a;
 }
+
