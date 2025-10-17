@@ -47,6 +47,7 @@ table {
     border-collapse: collapse;
     border-radius: 10px;
     margin: 0 auto;
+	font-size:10vw;
 }
 
 th {
@@ -80,6 +81,7 @@ a {
 .noticia h2 {
     margin-top: 20px;
     font-size: 30px;
+	font-size:10vw;
 }
 @media (max-width: 768px) {
     th {
@@ -111,3 +113,4 @@ a {
     font-size: 14px;
 
 }
+
