@@ -43,6 +43,41 @@ body {
 	margin-top: 0;
 }
 
+.1 {
+    width: auto;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+.1 th {
+    font-size: 15px;
+    text-align: center;
+    padding: 10px;
+    border: 1.5px solid black;
+    border-radius: 10px;
+    background-color: white;
+}
+
+/* Responsividade para telas menores */
+@media (max-width: 768px) {
+    .menu-tabela, .menu-tabela tr, .menu-tabela th {
+        display: block;
+        width: 100%;
+    }
+
+    .1 th {
+        box-sizing: border-box;
+        margin: 5px 0;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .menu-tabela th {
+        font-size: 12px;
+        padding: 8px 5px;
+    }
+	
 table {
     border-collapse: collapse;
     border-radius: 10px;
@@ -81,27 +116,7 @@ a {
     margin-top: 20px;
     font-size: 30px;
 }
-@media (max-width: 768px) {
-    th {
-        padding: 8px 5px;
-        font-size: 13px;
-    }
-    
-    .noticia h2 {
-        font-size: 20px;
-    }
-}
 
-@media (max-width: 480px) {
-    th {
-        padding: 5px 3px;
-        font-size: 11px;
-    }
-    
-    .logotipo img {
-        height: 90px;
-    }
-}
 .rodape {
     background: linear-gradient(to right, #1a5f1a, #2a7a2a, #3a9a3a, #2a7a2a, #1a5f1a);
     color: white;
@@ -111,3 +126,4 @@ a {
     font-size: 14px;
 
 }
+
